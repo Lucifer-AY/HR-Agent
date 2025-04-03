@@ -1,0 +1,23 @@
+spacy
+transformers
+openai
+pymupdf
+python-docx
+sentence-transformers
+textblob
+xgboost
+shap
+aif360
+fastapi
+uvicorn
+google-api-python-client
+twilio
+slack-sdk
+whisper
+pdfplumber
+tenacity
+matplotlib
+pytest
+
+uvicorn src.api:app --reload
+streamlit run src\frontend.py
