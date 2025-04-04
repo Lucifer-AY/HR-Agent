@@ -1,0 +1,30 @@
+# Core dependencies for audio, transcription, and project structure
+SpeechRecognition==3.10.0
+pyaudio==0.2.14
+winspeech==1.0.1
+textblob==0.18.0.post0
+pandas==2.2.2
+streamlit==1.36.0
+requests==2.32.3
+fastapi==0.112.0
+uvicorn==0.30.5
+pydantic==2.8.2
+python-dotenv==1.0.1
+httpx==0.27.0
+
+# Gemini API for question generation, response analysis, and feedback
+google-generativeai==0.7.2
+
+# Fairness and bias reduction dependencies
+aif360==0.6.1
+xgboost==2.1.0
+shap==0.46.0
+torch==2.4.0
+transformers==4.44.2
+
+# Additional utilities
+matplotlib==3.9.1
+numpy==2.0.1
+
+#uvicorn src.api:app --reload
+#streamlit run src\frontend.py
